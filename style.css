@@ -8,7 +8,7 @@
 }
 
 body {
-    background: rgb(222, 255, 229);
+    background: rgb(236, 248, 238);
     color: #111111;
 }
 
@@ -27,7 +27,7 @@ body {
 .brand {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 5px;
 }
 
 .logo {
@@ -74,4 +74,29 @@ body {
 
 .copy-label {
     font-size: 12px;
+}
+
+
+/* Hero */
+.hero {
+    padding: 15px  56px;
+    text-align: center;
+    background: linear-gradient(180deg, #013223, #006747 50%, #013223);
+    color: white;
+}
+
+.hero-badge {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.hero h1 {
+    margin: 12px 0 6px;
+    font-size: 20px;
+}
+
+.hero p {
+    opacity: .95;
+    margin: 0;
 }
