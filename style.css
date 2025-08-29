@@ -325,9 +325,7 @@ body {
         grid-template-columns: 1fr;
         gap: 16px;
     }
-    /* .history{
-        order: 2; */
-    /* } */
+
     .cards{
         order: 1;
         grid-template-columns: repeat(2, 1fr);
